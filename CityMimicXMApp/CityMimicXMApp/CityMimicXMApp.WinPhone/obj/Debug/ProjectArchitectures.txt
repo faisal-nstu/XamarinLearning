@@ -1,0 +1,2 @@
+C:\Users\Faisal Amin\documents\visual studio 2015\Projects\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp.WinPhone\CityMimicXMApp.WinPhone.csproj;neutral
+C:\Users\Faisal Amin\documents\visual studio 2015\Projects\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp.csproj;neutral
