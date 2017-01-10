@@ -43,13 +43,20 @@ namespace CityMimicXMApp.ViewModels
 
         private async void Login()
         {
-            var loginModel = new UserLoginModel()
+            try
             {
-                ipAddress = "0.0.0.0",
-                password = "123456Qq",
-                userName = "faisal"
-            };
-            var response = await _dataService.Login(loginModel);
+                var loginModel = new UserLoginModel()
+                {
+                    ipAddress = "0.0.0.0",
+                    password = "123456Qq",
+                    userName = "faisal"
+                };
+                var response = await _dataService.Login(loginModel);
+            }
+            catch (Exception)
+            {
+                
+            }
         }
 
         private void TabTapped(string tabName)

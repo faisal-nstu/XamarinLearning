@@ -4,6 +4,7 @@ using Android.OS;
 using Prism.Unity;
 using Microsoft.Practices.Unity;
 
+
 namespace CityMimicXMApp.Droid
 {
     [Activity(Label = "CityMimicXMApp", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
