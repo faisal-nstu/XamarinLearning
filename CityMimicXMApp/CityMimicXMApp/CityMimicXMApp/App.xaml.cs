@@ -1,5 +1,7 @@
-﻿using Prism.Unity;
+﻿using CityMimicXMApp.Services;
+using Prism.Unity;
 using CityMimicXMApp.Views;
+using Microsoft.Practices.Unity;
 
 namespace CityMimicXMApp
 {
@@ -18,6 +20,7 @@ namespace CityMimicXMApp
         {
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<PaymentPage>();
+            Container.RegisterType<IDataService, DataService>(new ContainerControlledLifetimeManager());
         }
     }
 }
