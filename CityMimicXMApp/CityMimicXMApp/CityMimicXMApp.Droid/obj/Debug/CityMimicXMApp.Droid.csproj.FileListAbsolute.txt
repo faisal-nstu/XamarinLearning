@@ -94,4 +94,3 @@ C:\Users\Faisal Amin\documents\visual studio 2015\Projects\CityMimicXMApp\CityMi
 C:\Users\Faisal Amin\documents\visual studio 2015\Projects\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Faisal Amin\documents\visual studio 2015\Projects\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Faisal Amin\Documents\Visual Studio 2015\Projects\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp.Droid\obj\Debug\CityMimicXMApp.Droid.dll.mdb
-C:\Users\Faisal Amin\Documents\Visual Studio 2015\Projects\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp.Droid\bin\Debug\CityMimicXMApp.Droid.dll.mdb
