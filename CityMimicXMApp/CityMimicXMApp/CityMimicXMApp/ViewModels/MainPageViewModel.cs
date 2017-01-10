@@ -46,8 +46,8 @@ namespace CityMimicXMApp.ViewModels
             var loginModel = new UserLoginModel()
             {
                 ipAddress = "0.0.0.0",
-                password = "123456Tt",
-                userName = "jahangir"
+                password = "123456Qq",
+                userName = "faisal"
             };
             var response = await _dataService.Login(loginModel);
         }
