@@ -21,6 +21,7 @@ namespace CityMimicXMApp
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<PaymentPage>();
             Container.RegisterType<IDataService, DataService>(new ContainerControlledLifetimeManager());
+            Container.RegisterTypeForNavigation<PrismContentPage1>();
         }
     }
 }

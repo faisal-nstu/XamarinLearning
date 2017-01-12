@@ -21,12 +21,12 @@
         <ColumnDefinition Width="*"/>
         <ColumnDefinition Width="*"/>
       </Grid.ColumnDefinitions>
-      <!--<Grid.Padding>
+      <Grid.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                     iOS="0,0,0,0"
                     Android="0,0,0,-6"
                     WinPhone="0,0,0,0" />
-      </Grid.Padding>-->
+      </Grid.Padding>
       
       <Grid Grid.Row="0"
             Grid.RowSpan="3"
