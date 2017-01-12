@@ -1,5 +1,10 @@
 ﻿<resources>
-  <style name="MyTheme" parent="MyTheme.Base">
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/intersteller</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+  <!--<style name="MyTheme" parent="MyTheme.Base">-->
   </style>
   <style name="MyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
     <item name="colorPrimary">@color/primary</item>

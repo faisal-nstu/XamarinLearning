@@ -173,6 +173,7 @@
     <AndroidResource Include="Resources\drawable\payment_unchecked.png" />
     <AndroidResource Include="Resources\drawable\Transfers.png" />
     <AndroidResource Include="Resources\drawable\Transfers_h.png" />
+    <AndroidResource Include="Resources\drawable\intersteller.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CityMimicXMApp\CityMimicXMApp.csproj">
