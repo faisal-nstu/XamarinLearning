@@ -89,7 +89,7 @@ namespace CityMimicXMApp.Controls
 
             if (tabNo == 1)
             {
-                tabName = "MainPage";
+                tabName = "AccountPage";
             }
             else if (tabNo == 2)
             {

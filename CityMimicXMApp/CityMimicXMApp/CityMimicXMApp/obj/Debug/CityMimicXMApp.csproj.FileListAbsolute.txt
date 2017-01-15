@@ -115,14 +115,10 @@ E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\bin\Debug
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\bin\Debug\Xamarin.Forms.Xaml.pdb
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\bin\Debug\Xamarin.Forms.Xaml.xml
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.csproj.App.config
-E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.csprojResolveAssemblyReference.cache
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.App.xaml.g.cs
-E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.Views.MainPage.xaml.g.cs
+E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.Views.AccountPage.xaml.g.cs
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.Controls.TabControl.xaml.g.cs
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.Views.PaymentPage.xaml.g.cs
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.Views.PrismContentPage1.xaml.g.cs
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.dll
 E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.pdb
-E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\obj\Debug\CityMimicXMApp.dll.mdb
-E:\Faisal\xamarinlearning\CityMimicXMApp\CityMimicXMApp\CityMimicXMApp\bin\Debug\CityMimicXMApp.dll.mdb
-

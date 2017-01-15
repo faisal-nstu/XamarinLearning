@@ -13,12 +13,13 @@ namespace CityMimicXMApp
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("MainPage?title=Hello%20from%20Xamarin.Forms");
+            NavigationService.NavigateAsync("AccountPage?title=Hello%20from%20Xamarin.Forms");
         }
+        
 
         protected override void RegisterTypes()
         {
-            Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<AccountPage>();
             Container.RegisterTypeForNavigation<PaymentPage>();
             Container.RegisterType<IDataService, DataService>(new ContainerControlledLifetimeManager());
             Container.RegisterTypeForNavigation<PrismContentPage1>();
