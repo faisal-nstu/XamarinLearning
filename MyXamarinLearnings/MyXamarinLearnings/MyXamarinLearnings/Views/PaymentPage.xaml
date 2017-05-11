@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:controls="clr-namespace:MyXamarinLearnings.Controls;assembly=MyXamarinLearnings"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyXamarinLearnings.Views.PaymentPage">
+
+  <Grid BackgroundColor="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="9*"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Grid.Padding>
+        <!--<OnPlatform x:TypeArguments="Thickness"
+                    iOS="0,0,0,0"
+                    Android="0,0,0,-6"
+                    WinPhone="0,0,0,0" />-->
+      </Grid.Padding>
+      <!--<Grid Grid.Row="0"
+            Grid.RowSpan="3"
+            WidthRequest="1"
+            HorizontalOptions="End"
+            VerticalOptions="FillAndExpand"
+            BackgroundColor="Red"/>
+      <Grid Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            VerticalOptions="Start"
+            HorizontalOptions="FillAndExpand"
+            HeightRequest="1"
+            BackgroundColor="Red"/>
+      <Grid Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            VerticalOptions="Start"
+            HorizontalOptions="FillAndExpand"
+            HeightRequest="1"
+            BackgroundColor="Red"/>-->
+      
+    
+      <StackLayout Grid.Row="0"
+                   Grid.RowSpan="3"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2">
+        <StackLayout Orientation="Vertical"
+                     x:Name="ServiceStack"/>
+        <Button Clicked="AddClicked"
+                Text="ADD SERVICE"
+                BackgroundColor="Red"/>
+        <Button Clicked="SaveClicked"
+                Text="SAVE"
+                BackgroundColor="Red"/>
+      
+    </StackLayout>
+    </Grid>
+    <controls:TabControl Grid.Row="1"
+                         TabNo="{Binding TabNo}"
+                         TabtappedCommand="{Binding TabTappedCommand}"/>
+  </Grid>
+</ContentPage>

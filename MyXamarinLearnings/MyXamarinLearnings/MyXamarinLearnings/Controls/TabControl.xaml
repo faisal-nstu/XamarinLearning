@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyXamarinLearnings.Controls.TabControl">
+  <ContentView.Content>
+    <Grid BackgroundColor="#f3f3f3">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <BoxView BackgroundColor="Red" HeightRequest="1.5"
+               Grid.Column="0"
+               Grid.ColumnSpan="4"
+               VerticalOptions="Start"/>
+      <Grid Grid.Column="0"
+            BackgroundColor="Transparent">
+        <StackLayout x:Name="AccountsTab"
+            VerticalOptions="Center"
+            HorizontalOptions="Center">
+          <Image Source="account_unchecked.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Gray"
+                 Text="Accounts"/>
+        </StackLayout>
+        <StackLayout x:Name="AccountsTabH"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     IsVisible="False">
+          <Image Source="account_checked.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Red"
+                 Text="Accounts"/>
+        </StackLayout>
+      </Grid>
+      <Grid Grid.Column="1"
+            BackgroundColor="Transparent">
+        <StackLayout x:Name="TransfersTab"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center">
+          <Image Source="Transfers.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Gray"
+                 Text="Transfers"/>
+        </StackLayout>
+        <StackLayout x:Name="TransfersTabH"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                     IsVisible="False">
+          <Image Source="Transfers_h.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Red"
+                 Text="Transfers"/>
+        </StackLayout>
+      </Grid>
+      <Grid Grid.Column="2">
+        <StackLayout x:Name="PaymentsTab"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center">
+          <Image Source="payment_unchecked.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Gray"
+                 Text="Payments"/>
+        </StackLayout>
+        <StackLayout x:Name="PaymentsTabH"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                     IsVisible="False">
+          <Image Source="payment_checked.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Red"
+                 Text="Payments"/>
+        </StackLayout>
+      </Grid>
+      <Grid Grid.Column="3"
+            BackgroundColor="Transparent">
+        <StackLayout x:Name="MoreTab"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center">
+          <Image Source="more_unchecked.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Gray"
+                 Text="More"/>
+        </StackLayout>
+        <StackLayout x:Name="MoreTabH"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                     IsVisible="False">
+          <Image Source="more_checked.png"
+                 HeightRequest="30"/>
+          <Label TextColor="Red"
+                 Text="More"/>
+        </StackLayout>
+      </Grid>
+    </Grid>
+  </ContentView.Content>
+</ContentView>
