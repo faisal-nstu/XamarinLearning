@@ -5,7 +5,7 @@
              xmlns:controls="clr-namespace:MyXamarinLearnings.Controls;assembly=MyXamarinLearnings"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="MyXamarinLearnings.Views.Page2">
-  <Grid BackgroundColor="White">
+  <Grid BackgroundColor="#F5F5F5">
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
       <RowDefinition Height=".1*"/>
@@ -17,6 +17,37 @@
            HorizontalOptions="Center">
       PAGE 2
     </Label>
+    <StackLayout Grid.Row="0">
+      <Grid >
+        <Entry x:Name="LocationEntry"
+               BackgroundColor="#E2E2E2"
+               Margin="10,10,10,0"
+               HeightRequest="50"
+               Placeholder="Pick up your address"
+               Text="{Binding Address,Mode=TwoWay}"/>
+      </Grid>
+      <ListView ItemsSource="{Binding Predictions}"
+                HasUnevenRows="True"
+                ItemSelected="ListView_ItemSelected">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout BackgroundColor="#AAFFFFFF"
+                           Orientation="Horizontal">
+                <Image Source="location.png"
+                       HeightRequest="20"
+                       VerticalOptions="Center"
+                       Margin="5,0,2,0"/>
+                <Label Text="{Binding description}"
+                       TextColor="{StaticResource DefaultTextColor}"
+                       FontSize="16"
+                       Margin="5"/>
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
     <controls:TabControl Grid.Row="1"
                          TabNo="2"
                          TabtappedCommand="{Binding ChangeTab}"/>

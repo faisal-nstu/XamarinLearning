@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using MyXamarinLearnings.Models;
+using Xamarin.Forms;
 
 namespace MyXamarinLearnings.Views
 {
@@ -7,6 +8,12 @@ namespace MyXamarinLearnings.Views
         public Page2()
         {
             InitializeComponent();
+        }
+
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var prediction = e.SelectedItem as Prediction;
+            if (prediction != null) LocationEntry.Text = prediction.description;
         }
     }
 }
