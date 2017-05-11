@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:controls="clr-namespace:MyXamarinLearnings.Controls;assembly=MyXamarinLearnings"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyXamarinLearnings.Views.Page2">
+  <Grid BackgroundColor="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height=".1*"/>
+    </Grid.RowDefinitions>
+
+    <Label TextColor="#2E81FF"
+           FontSize="30"
+           VerticalOptions="Center"
+           HorizontalOptions="Center">
+      PAGE 2
+    </Label>
+    <controls:TabControl Grid.Row="1"
+                         TabNo="2"
+                         TabtappedCommand="{Binding ChangeTab}"/>
+  </Grid>
+</ContentPage>

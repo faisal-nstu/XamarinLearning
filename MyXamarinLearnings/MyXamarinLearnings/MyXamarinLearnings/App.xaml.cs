@@ -13,16 +13,18 @@ namespace MyXamarinLearnings
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("AccountPage?title=Hello%20from%20Xamarin.Forms");
+            NavigationService.NavigateAsync("Page1");
         }
+
         
 
         protected override void RegisterTypes()
         {
-            Container.RegisterTypeForNavigation<AccountPage>();
-            Container.RegisterTypeForNavigation<PaymentPage>();
             Container.RegisterType<IDataService, DataService>(new ContainerControlledLifetimeManager());
-            Container.RegisterTypeForNavigation<PrismContentPage1>();
+            Container.RegisterTypeForNavigation<Page1>();
+            Container.RegisterTypeForNavigation<Page2>();
+            Container.RegisterTypeForNavigation<Page3>();
+            Container.RegisterTypeForNavigation<Page4>();
         }
     }
 }

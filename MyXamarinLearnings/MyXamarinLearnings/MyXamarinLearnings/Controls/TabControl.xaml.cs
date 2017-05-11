@@ -52,19 +52,19 @@ namespace MyXamarinLearnings.Controls
         {
             if (TabNo == 1)
             {
-                AccountsTabH.IsVisible = true;
+                Tab1H.IsVisible = true;
             }
             else if (TabNo == 2)
             {
-                TransfersTabH.IsVisible = true;
+                Tab2H.IsVisible = true;
             }
             else if (TabNo == 3)
             {
-                PaymentsTabH.IsVisible = true;
+                Tab3H.IsVisible = true;
             }
             else if (TabNo == 4)
             {
-                MoreTabH.IsVisible = true;
+                Tab4H.IsVisible = true;
             }
         }
 
@@ -72,10 +72,10 @@ namespace MyXamarinLearnings.Controls
         {
             InitializeComponent();
             
-            AccountsTab.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(1)) });
-            TransfersTab.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(2)) });
-            PaymentsTab.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(3)) });
-            MoreTab.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(4)) });
+            Tab1.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(1)) });
+            Tab2.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(2)) });
+            Tab3.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(3)) });
+            Tab4.GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(o => TappedCallback(4)) });
         }
 
 
@@ -89,19 +89,20 @@ namespace MyXamarinLearnings.Controls
 
             if (tabNo == 1)
             {
-                tabName = "AccountPage";
+                tabName = "Page1";
             }
             else if (tabNo == 2)
             {
-                //tabName = "TransfersPage";
+                tabName = "Page2";
+                
             }
             else if (tabNo == 3)
             {
-                tabName = "PaymentPage";
+                tabName = "Page3";
             }
             else if (tabNo == 4)
             {
-                //tabName = "MorePage";
+                tabName = "Page4";
             }
             if(!string.IsNullOrEmpty(tabName)) TabtappedCommand.Execute(tabName);
         }

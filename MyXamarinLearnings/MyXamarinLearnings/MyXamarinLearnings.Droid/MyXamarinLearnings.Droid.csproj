@@ -167,15 +167,15 @@
     <Content Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
     </Content>
-    <AndroidResource Include="Resources\drawable\account_checked.png" />
-    <AndroidResource Include="Resources\drawable\account_unchecked.png" />
-    <AndroidResource Include="Resources\drawable\more_checked.png" />
-    <AndroidResource Include="Resources\drawable\more_unchecked.png" />
-    <AndroidResource Include="Resources\drawable\payment_checked.png" />
-    <AndroidResource Include="Resources\drawable\payment_unchecked.png" />
-    <AndroidResource Include="Resources\drawable\Transfers.png" />
-    <AndroidResource Include="Resources\drawable\Transfers_h.png" />
-    <AndroidResource Include="Resources\drawable\intersteller.jpg" />
+    <AndroidResource Include="Resources\drawable\tab1.png" />
+    <AndroidResource Include="Resources\drawable\tab1_disabled.png" />
+    <AndroidResource Include="Resources\drawable\tab2.png" />
+    <AndroidResource Include="Resources\drawable\tab2_disabled.png" />
+    <AndroidResource Include="Resources\drawable\tab3.png" />
+    <AndroidResource Include="Resources\drawable\tab3_disabled.png" />
+    <AndroidResource Include="Resources\drawable\tab4.png" />
+    <AndroidResource Include="Resources\drawable\tab4_disabled.png" />
+    <AndroidResource Include="Resources\drawable\splash.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyXamarinLearnings\MyXamarinLearnings.csproj">

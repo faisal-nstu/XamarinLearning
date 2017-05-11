@@ -8,87 +8,93 @@
         <ColumnDefinition Width="*"/>
         <ColumnDefinition Width="*"/>
       </Grid.ColumnDefinitions>
-      <BoxView BackgroundColor="Red" HeightRequest="1.5"
+      <BoxView BackgroundColor="{StaticResource MainColor}"
+               HeightRequest="1.5"
                Grid.Column="0"
                Grid.ColumnSpan="4"
                VerticalOptions="Start"/>
       <Grid Grid.Column="0"
-            BackgroundColor="Transparent">
-        <StackLayout x:Name="AccountsTab"
+            BackgroundColor="Transparent"
+            Margin="0,5,0,0">
+        <StackLayout x:Name="Tab1"
             VerticalOptions="Center"
             HorizontalOptions="Center">
-          <Image Source="account_unchecked.png"
+          <Image Source="tab1_disabled.png"
                  HeightRequest="30"/>
-          <Label TextColor="Gray"
-                 Text="Accounts"/>
+          <Label TextColor="{StaticResource DisabledColor}"
+                 Text="TAB 1"/>
         </StackLayout>
-        <StackLayout x:Name="AccountsTabH"
+        <StackLayout x:Name="Tab1H"
                      VerticalOptions="Center"
                      HorizontalOptions="Center"
                      IsVisible="False">
-          <Image Source="account_checked.png"
+          <Image Source="tab1.png"
                  HeightRequest="30"/>
-          <Label TextColor="Red"
-                 Text="Accounts"/>
+          <Label TextColor="{StaticResource MainColor}"
+                 Text="TAB 1"/>
         </StackLayout>
       </Grid>
       <Grid Grid.Column="1"
-            BackgroundColor="Transparent">
-        <StackLayout x:Name="TransfersTab"
+            BackgroundColor="Transparent"
+            Margin="0,5,0,0">
+        <StackLayout x:Name="Tab2"
                    VerticalOptions="Center"
                    HorizontalOptions="Center">
-          <Image Source="Transfers.png"
+          <Image Source="tab2_disabled.png"
                  HeightRequest="30"/>
-          <Label TextColor="Gray"
-                 Text="Transfers"/>
+          <Label TextColor="{StaticResource DisabledColor}"
+                 Text="TAB 2"/>
         </StackLayout>
-        <StackLayout x:Name="TransfersTabH"
+        <StackLayout x:Name="Tab2H"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                      IsVisible="False">
-          <Image Source="Transfers_h.png"
+          <Image Source="tab2.png"
                  HeightRequest="30"/>
-          <Label TextColor="Red"
-                 Text="Transfers"/>
+          <Label TextColor="{StaticResource MainColor}"
+                 Text="TAB 2"/>
         </StackLayout>
       </Grid>
-      <Grid Grid.Column="2">
-        <StackLayout x:Name="PaymentsTab"
+      <Grid Grid.Column="2"
+            BackgroundColor="Transparent"
+            Margin="0,5,0,0">
+        <StackLayout x:Name="Tab3"
                    VerticalOptions="Center"
                    HorizontalOptions="Center">
-          <Image Source="payment_unchecked.png"
+          <Image Source="tab3_disabled.png"
                  HeightRequest="30"/>
-          <Label TextColor="Gray"
-                 Text="Payments"/>
+          <Label TextColor="{StaticResource DisabledColor}"
+                 Text="TAB 3"/>
         </StackLayout>
-        <StackLayout x:Name="PaymentsTabH"
+        <StackLayout x:Name="Tab3H"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                      IsVisible="False">
-          <Image Source="payment_checked.png"
+          <Image Source="tab3.png"
                  HeightRequest="30"/>
-          <Label TextColor="Red"
-                 Text="Payments"/>
+          <Label TextColor="{StaticResource MainColor}"
+                 Text="TAB 3"/>
         </StackLayout>
       </Grid>
       <Grid Grid.Column="3"
-            BackgroundColor="Transparent">
-        <StackLayout x:Name="MoreTab"
+            BackgroundColor="Transparent"
+            Margin="0,5,0,0">
+        <StackLayout x:Name="Tab4"
                    VerticalOptions="Center"
                    HorizontalOptions="Center">
-          <Image Source="more_unchecked.png"
+          <Image Source="tab4_disabled.png"
                  HeightRequest="30"/>
-          <Label TextColor="Gray"
-                 Text="More"/>
+          <Label TextColor="{StaticResource DisabledColor}"
+                 Text="TAB 4"/>
         </StackLayout>
-        <StackLayout x:Name="MoreTabH"
+        <StackLayout x:Name="Tab4H"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                      IsVisible="False">
-          <Image Source="more_checked.png"
+          <Image Source="tab4.png"
                  HeightRequest="30"/>
-          <Label TextColor="Red"
-                 Text="More"/>
+          <Label TextColor="{StaticResource MainColor}"
+                 Text="TAB 4"/>
         </StackLayout>
       </Grid>
     </Grid>

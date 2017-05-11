@@ -96,8 +96,6 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="account_checked.png" />
-    <Content Include="account_unchecked.png" />
     <Content Include="Assets\account_checked.png" />
     <Content Include="Assets\account_unchecked.png" />
     <Content Include="Assets\icon.png" />
@@ -115,13 +113,14 @@
     <Content Include="Assets\Transfers_h.png" />
     <Content Include="Assets\WideLogo.scale-240.png" />
     <Content Include="icon.png" />
-    <Content Include="intersteller.jpg" />
-    <Content Include="more_checked.png" />
-    <Content Include="more_unchecked.png" />
-    <Content Include="payment_checked.png" />
-    <Content Include="payment_unchecked.png" />
-    <Content Include="Transfers.png" />
-    <Content Include="Transfers_h.png" />
+    <Content Include="tab1.png" />
+    <Content Include="tab1_disabled.png" />
+    <Content Include="tab2.png" />
+    <Content Include="tab2_disabled.png" />
+    <Content Include="tab3.png" />
+    <Content Include="tab3_disabled.png" />
+    <Content Include="tab4.png" />
+    <Content Include="tab4_disabled.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

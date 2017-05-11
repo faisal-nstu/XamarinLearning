@@ -2,9 +2,9 @@
 
 namespace MyXamarinLearnings.Views
 {
-    public partial class PrismContentPage1 : ContentPage
+    public partial class Page3 : ContentPage
     {
-        public PrismContentPage1()
+        public Page3()
         {
             InitializeComponent();
         }
